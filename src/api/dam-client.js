@@ -16,7 +16,7 @@ import { validateLanguage, getSpatialDivisionCode } from '../utils/formatting.js
  * Configured HTTP client for DAM API requests.
  * Pre-configured with base URL, retry logic, and timeout settings.
  * 
- * @constant {import('ky').KyInstance}
+ * @constant {object}
  * @see {@link https://github.com/sindresorhus/ky|ky HTTP client}
  */
 export const apiClient = ky.create({

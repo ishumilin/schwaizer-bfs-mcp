@@ -1,10 +1,6 @@
 /**
- * @fileoverview Data formatting and validation utilities for BFS MCP server
+ * @fileoverview Data formatting and validation utilities for BFS MCP server. Provides helper functions for validating and formatting API inputs and outputs, including language validation, BFS number formatting, spatial division mapping, and user-friendly error message generation.
  * @module utils/formatting
- * 
- * Provides helper functions for validating and formatting API inputs and outputs,
- * including language validation, BFS number formatting, spatial division mapping,
- * and user-friendly error message generation.
  */
 
 /**

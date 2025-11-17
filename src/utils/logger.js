@@ -1,10 +1,6 @@
 /**
- * @fileoverview Logger utility using Pino for structured logging
+ * @fileoverview Logger utility using Pino for structured logging. Provides a configured Pino logger instance with pretty-printing for development. The logger supports multiple log levels (trace, debug, info, warn, error, fatal) and formats output with timestamps and colorization.
  * @module utils/logger
- * 
- * Provides a configured Pino logger instance with pretty-printing for development.
- * The logger supports multiple log levels (trace, debug, info, warn, error, fatal)
- * and formats output with timestamps and colorization.
  */
 
 import pino from 'pino';
