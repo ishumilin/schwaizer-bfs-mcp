@@ -1,0 +1,45 @@
+{
+  "name": "schwaizer-bfs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Swiss Federal Statistical Office (BFS) data access",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src/",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "keywords": [
+    "mcp",
+    "bfs",
+    "swiss",
+    "statistics",
+    "federal-statistical-office",
+    "pxweb",
+    "opendata"
+  ],
+  "author": "ishumilin",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "ky": "^1.7.3",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "xml2js": "^0.6.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.9",
+    "eslint": "^9.15.0",
+    "prettier": "^3.3.3",
+    "vitest": "^2.1.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
